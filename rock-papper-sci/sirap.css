@@ -49,6 +49,7 @@ form {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  max-width: 90%;
 }
 
 h1 {
@@ -287,4 +288,9 @@ label:nth-of-type(3) {
   font-size: 15px;
   font-weight: 500;
   border: 1px solid rgb(13, 211, 214);
+}
+@media (max-width:720px){
+    body{
+      max-width: 90%;
+    }
 }
